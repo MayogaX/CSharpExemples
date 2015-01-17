@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ExemploSimples
 {
-    public class Produto
+    public class Categoria
     {
-        public int ProdutoId { get; set;}
+        public int CategoriaId { get; set; }
         public string Nome { get; set; }
-        public Decimal valor { get; set; }
+        public List<Produto> Produtos { get; set; }
     }
 }
