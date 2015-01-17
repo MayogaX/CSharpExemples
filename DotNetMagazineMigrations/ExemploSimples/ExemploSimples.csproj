@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201501171858302_AdicionaCategoria.Designer.cs">
       <DependentUpon>201501171858302_AdicionaCategoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201501172227526_QuantidadeProduto.cs" />
+    <Compile Include="Migrations\201501172227526_QuantidadeProduto.Designer.cs">
+      <DependentUpon>201501172227526_QuantidadeProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Program.cs" />
@@ -73,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201501171858302_AdicionaCategoria.resx">
       <DependentUpon>201501171858302_AdicionaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501172227526_QuantidadeProduto.resx">
+      <DependentUpon>201501172227526_QuantidadeProduto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
